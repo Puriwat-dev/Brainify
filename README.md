@@ -1,1 +1,1 @@
-# Brainify📚
+# Brainify
