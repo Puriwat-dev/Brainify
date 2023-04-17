@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: caveat;
+    src: url(../../public/fonts/Caveat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../../public/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: bebasnue;
+    src: url(../../public/fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: indieflower;
+    src: url(../../public/fonts/IndieFlower-Regular.ttf);
+}
+
+.caveat {
+    font-family: caveat;
+}
+.bebasnue {
+    font-family: bebasnue;
+}
+.indieflower {
+    font-family: indieflower;
+}
+* {
+    font-family: roboto;
+}
