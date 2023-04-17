@@ -1,0 +1,13 @@
+services:
+  web:
+    build: ./frontend
+    image: 63070051/img_frontend:lastest
+    ports:
+      - "3000:3000"
+    container_name: frontend
+  server:
+    build: ./backend
+    image: 63070051/img_backend:lastest
+    ports:
+      - "4000:4000"
+    container_name: backend
