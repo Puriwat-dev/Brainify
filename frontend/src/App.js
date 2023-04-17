@@ -5,13 +5,14 @@ import Question from './pages/Question';
 import Register from './pages/Register';
 import Course from './pages/Courses';
 import { BrowserRouter as Router,Switch, Route} from "react-router-dom";
+import Login2 from './pages/Login2';
 function App() {
   return (
     <Router>
       <div className="App">
         <Switch>
           <Route exact path="/">
-          <Login></Login>
+          <Login2></Login2>
           </Route>
           <Route path="/register">
           <Register></Register>

@@ -83,7 +83,7 @@ const Question = () => {
     <div className="p-20">
         <h1 className="text-6xl">Question</h1>
         <div class="my-6 flex">
-        <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-3/4 p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="ถามคำถามที่สงสัย" required
+        <input class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-3/4 p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="ถามคำถามที่สงสัย" required
         value={newQuestion}
         onChange={(v) => setNewQuestion(v.target.value)}
         />

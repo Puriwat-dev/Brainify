@@ -22,6 +22,11 @@
     src: url(../../public/fonts/IndieFlower-Regular.ttf);
 }
 
+@font-face {
+    font-family: notori-thai;
+    src: url(../../public/fonts/NotoSansThai-Regular.ttf);
+}
+
 .caveat {
     font-family: caveat;
 }
@@ -30,6 +35,9 @@
 }
 .indieflower {
     font-family: indieflower;
+}
+.notori-thai {
+    font-family: notori-thai;
 }
 * {
     font-family: roboto;
