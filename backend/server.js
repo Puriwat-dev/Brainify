@@ -21,7 +21,7 @@ require("./app/routes/auth.routes")(app);
 require("./app/routes/Questions.routes")(app);
 require("./app/routes/Comments.routes")(app);
 
-const PORT = process.env.PORT || 8080;
+const PORT = 4000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}.`);
 })
